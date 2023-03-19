@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Big Boy Toys</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script src="../Java Script/index.js" defer></script>
+</head>
+<body>
+    <div id="outerDiv">
+        <div id="innerDiv">
+            <h1 id="heading">Login</h1>
+            <form>
+                <div id="emaildiv">
+                    <input class="in" id="usid" placeholder="Enter your Email">
+                </div>
+                <span id="result"></span>
+                <div id="passdiv">
+                    <input class="in" id="pass" type="password" placeholder="Enter the Password">
+                    <img onmousedown="passvis()" onmouseup="passhide()" id="visible" src="../Asset/Images/bg.jpg" alt="X">
+                </div>
+                <input type="button" id="but" value="Login" onclick="logintowebpage()">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

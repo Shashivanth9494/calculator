@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Box-shadow</title>
+    <style>
+        h1{
+            box-shadow: 2px 2px 5px black;
+        }
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: transparent;
+            transition: box-shadow 2s;
+            box-shadow: 20px 20px 0px red,-20px -20px 0px lawngreen ;
+        }
+        div:hover{
+            box-shadow: -20px -20px 0px red,20px 20px 0px lawngreen ;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <div></div>
+</body>
+</html>

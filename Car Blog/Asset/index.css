@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    width: 100%;
+    height: 400px;
+    background-image: url(../Asset/Images/spanner.png),url(../Asset/Images/bg.jpg);
+    background-size: 20%,100%;
+    background-position: top right,0px -120px;
+    background-repeat: no-repeat;
+    transition: background-size 1s, background-position 1s;  
+}
+#header:hover{
+    background-size: 10%,120%;
+    background-position: top right, -80px -180px;
+}
+#gear{
+    width: 320px;
+    transition: rotate 10s;
+    float: left;
+}
+#header:hover #gear{
+    background-size: 10%,120%;
+    rotate: 360deg;
+    background-position: top right, -80px -180px;
+}
+#car{
+    width: 180px;
+    margin-top: 325px;
+    margin-left: -320px;
+    transition: margin left 10s;
+}
+#header:hover #car{
+    margin-left: 500px;
+}
+
+
+/*
+#a{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 600px;
+    background-image: url(../Assest/Images/Garage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    transition: background-size 5s;
+}
+#a:hover{
+    background-size: 110% 650px;
+}
+#b{
+    width: 300px;
+    height: 300px;
+    background-image: url(../Assest/Images/Gear.png);
+    background-size: 100% 100%;
+    margin-left: 20px;
+    transition: rotate 5s;
+}
+#b:hover{
+    rotate: 360deg;
+}
+#c{
+    width: 300px;
+    height: 300px;
+    background-image: url(../Assest/Images/Spanner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: -250px;
+    margin-left: 1050px;
+    rotate: -5deg;
+    transition: background-size 3s, rotate 3s;
+}
+#c:hover{
+    background-size: 30% 30%;
+    rotate: 360deg;
+}
+#d{
+    width: 200px;
+    height: 60px;
+    background-image: url(../Assest/Images/car3.png);
+    background-size: 100% 100%;
+    margin-top: 195px;
+    margin-left: -10px;
+    transition: margin-left 5s;
+}
+#a:hover #d{
+    margin-left: 85%;
+}
+#e{
+    width: 200px;
+    height: 200px;
+    background-image: url(../Assest/Images/nuts-and-bolts.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -270px;
+    margin-left: 920px;
+    transition: background-size 5s,margin-left 5s;
+}
+#e:hover{
+    background-size: 220px 220px;
+    margin-left: 75%;
+}
+#f{
+    margin-left: 300px;
+    margin-top: -540px;
+    font-size: 60px;
+    color: sandybrown;
+    transition: font-size 5s;
+}
+#f:hover{
+    font-size: 90px;
+}
+
+*/
